@@ -1,0 +1,114 @@
+.detail-item > .title {
+    font-size: 20px;
+}
+.detail-item > .price {
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 10px 0;
+}
+.detail-item > .delivery {
+    color: #888;
+}
+
+.detail-btn > .price,
+.detail-btn > .order {
+    overflow: hidden;
+}
+.detail-btn > .price {
+    line-height: 42px;
+}
+
+.detail-btn > .price > .left {
+    float: left;
+    margin: 0;
+}
+.detail-btn > .price > .right {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-btn > .order > button {
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.detail-item {/* 버튼영역과의 거리 */
+    min-height: 350px;
+    margin-bottom: 18px;
+}
+
+/* =====댓글영역==== */
+.reply-wrap {
+    border : 1px solid #d2d2d2;
+    background-color: #f5f5f5;
+    padding: 20px;
+    position: relative;
+}
+
+.reply-wrap > .reply-img {
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.reply-wrap > .reply-content {
+    padding-left: 60px;
+}
+
+.reply-content > .form-control {
+    resize: vertical;/* 세로축 */
+    margin-bottom: 10px;
+}
+.reply-group .form-control {
+    width:150px;
+}
+
+.reply-group {overflow: hidden;}
+.reply-group > .left {
+    float: left;
+}
+.reply-group > .right {
+    float: right;
+}
+
+.reply-group input[type="text"] {
+    margin-bottom: 10px;
+}
+
+/* textarea트랜지션 */
+.reply-content textarea {
+    height: 80px;
+    transition: all 0.3s ease-in-out;
+}
+.reply-content textarea:focus {
+    height: 150px;
+}
+
+/* =====답글영역===== */
+.reply-content strong,
+.reply-content small {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.reply-content a {
+    float: right;
+    text-decoration: none;
+    color: #333;
+}
+.reply-content p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
